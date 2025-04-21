@@ -7,14 +7,17 @@
 
 ## Query
 ### get all todo
-```query {
+```
+query {
   todos {
     id
     title
     completed
     createdAt
   }
-}```
+}
+```
+
 
 ### Get single todo
 ```
